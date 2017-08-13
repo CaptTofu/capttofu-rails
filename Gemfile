@@ -14,6 +14,8 @@ gem 'sqlite3'
 # duh
 gem 'mysql2'
 
+gem 'minitest'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -63,4 +65,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data' , platforms: [:mingw, :mswin, :x64_mingw, :jruby]
